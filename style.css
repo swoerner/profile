@@ -12,6 +12,7 @@ background: #EEEEEE;
 width: 80%;
 margin: 20px auto;
 box-shadow: 5px 5px #F7F7F7;
+border-radius: 5px;
 }
 
 #logo {
@@ -28,19 +29,32 @@ text-align: center;
 }
 
 h2{
-font-size: 16px;
+font-size: 20px;
 text-align: center;
+padding: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: center;
+  padding: 0px;
 }
 
 p {
 font-size: 12px;
 }
 
+portfolio-description {
+padding: 10px 10px 10px 10px;
+}
+
 .fab fa-facebook-f {
   color: black;
 }
 .btn btn-secondary {
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -73,6 +87,10 @@ table, th, td {
     align-items: center;
     font-weight: 900;
     font-size: 20px;
+}
+
+.portfolio h3 {
+    text-align: center;
 }
 .portfolio-description {
 font-size: 11px
@@ -113,9 +131,40 @@ height: 150px;
 display: block;
 margin-left: auto;
 margin-right: auto;
+padding: 10px;
 }
 
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+.cart h1 {
+  padding: 10px;
+}
+
+.cart p {
+  padding: 40px;
+}
+
+.form-group {
+padding: 10px;
+}
+
+form-group form-check {
+  padding: 10px;
+}
+
+.cart h3 {
+  font-size: 18px;
+text-align: center;
+padding: 10px 10px
+}
+/*
+.portfolio-header img {
+  max-width: 80px;
+}*/
+
+.portfolio-description a {
+  font-size: 10px;
 }
